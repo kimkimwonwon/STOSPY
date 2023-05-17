@@ -1,0 +1,45 @@
+[2023-05-17T18:18:01.806+0900][gc,heap] Heap region size: 1M
+[2023-05-17T18:18:01.808+0900][gc     ] Using G1
+[2023-05-17T18:18:01.808+0900][gc,heap,coops] Heap address: 0x0000000780000000, size: 1024 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2023-05-17T18:18:02.641+0900][gc,start     ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2023-05-17T18:18:02.641+0900][gc,task      ] GC(0) Using 8 workers of 8 for evacuation
+[2023-05-17T18:18:02.648+0900][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.0ms
+[2023-05-17T18:18:02.648+0900][gc,phases    ] GC(0)   Evacuate Collection Set: 6.6ms
+[2023-05-17T18:18:02.648+0900][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.4ms
+[2023-05-17T18:18:02.648+0900][gc,phases    ] GC(0)   Other: 0.8ms
+[2023-05-17T18:18:02.648+0900][gc,heap      ] GC(0) Eden regions: 48->0(44)
+[2023-05-17T18:18:02.648+0900][gc,heap      ] GC(0) Survivor regions: 0->7(7)
+[2023-05-17T18:18:02.648+0900][gc,heap      ] GC(0) Old regions: 0->1
+[2023-05-17T18:18:02.648+0900][gc,heap      ] GC(0) Humongous regions: 0->0
+[2023-05-17T18:18:02.648+0900][gc,metaspace ] GC(0) Metaspace: 20691K(21248K)->20691K(21248K) NonClass: 18402K(18688K)->18402K(18688K) Class: 2288K(2560K)->2288K(2560K)
+[2023-05-17T18:18:02.648+0900][gc           ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold) 47M->7M(1024M) 7.829ms
+[2023-05-17T18:18:02.648+0900][gc,cpu       ] GC(0) User=0.02s Sys=0.01s Real=0.00s
+[2023-05-17T18:18:02.648+0900][gc           ] GC(1) Concurrent Cycle
+[2023-05-17T18:18:02.648+0900][gc,marking   ] GC(1) Concurrent Clear Claimed Marks
+[2023-05-17T18:18:02.648+0900][gc,marking   ] GC(1) Concurrent Clear Claimed Marks 0.015ms
+[2023-05-17T18:18:02.648+0900][gc,marking   ] GC(1) Concurrent Scan Root Regions
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Scan Root Regions 2.443ms
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Mark (0.850s)
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Mark From Roots
+[2023-05-17T18:18:02.651+0900][gc,task      ] GC(1) Using 2 workers of 2 for marking
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Mark From Roots 0.414ms
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Preclean
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Preclean 0.030ms
+[2023-05-17T18:18:02.651+0900][gc,marking   ] GC(1) Concurrent Mark (0.850s, 0.850s) 0.522ms
+[2023-05-17T18:18:02.652+0900][gc,start     ] GC(1) Pause Remark
+[2023-05-17T18:18:02.653+0900][gc,stringtable] GC(1) Cleaned string and symbol table, strings: 7384 processed, 0 removed, symbols: 64973 processed, 31 removed
+[2023-05-17T18:18:02.653+0900][gc            ] GC(1) Pause Remark 7M->7M(1024M) 1.828ms
+[2023-05-17T18:18:02.653+0900][gc,cpu        ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[2023-05-17T18:18:02.653+0900][gc,marking    ] GC(1) Concurrent Rebuild Remembered Sets
+[2023-05-17T18:18:02.654+0900][gc,marking    ] GC(1) Concurrent Rebuild Remembered Sets 0.200ms
+[2023-05-17T18:18:02.654+0900][gc,start      ] GC(1) Pause Cleanup
+[2023-05-17T18:18:02.654+0900][gc            ] GC(1) Pause Cleanup 7M->7M(1024M) 0.091ms
+[2023-05-17T18:18:02.654+0900][gc,cpu        ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[2023-05-17T18:18:02.654+0900][gc,marking    ] GC(1) Concurrent Cleanup for Next Mark
+[2023-05-17T18:18:02.658+0900][gc,marking    ] GC(1) Concurrent Cleanup for Next Mark 4.024ms
+[2023-05-17T18:18:02.658+0900][gc            ] GC(1) Concurrent Cycle 9.514ms
+[2023-05-17T18:19:03.119+0900][gc,heap,exit  ] Heap
+[2023-05-17T18:19:03.120+0900][gc,heap,exit  ]  garbage-first heap   total 1048576K, used 18662K [0x0000000780000000, 0x00000007c0000000)
+[2023-05-17T18:19:03.120+0900][gc,heap,exit  ]   region size 1024K, 19 young (19456K), 7 survivors (7168K)
+[2023-05-17T18:19:03.120+0900][gc,heap,exit  ]  Metaspace       used 22519K, capacity 23036K, committed 23296K, reserved 1069056K
+[2023-05-17T18:19:03.120+0900][gc,heap,exit  ]   class space    used 2565K, capacity 2777K, committed 2816K, reserved 1048576K
